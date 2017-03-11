@@ -6,11 +6,15 @@ package org.concordia.workshop.course1;
  */
 public class ConstantExample {
     public static final int MAX_UNITS = 25;
-    public static  int MAX_UNITS2 = 25;
+    public static int MAX_UNITS2 = 25;
 
     public static void main(String[] args) {
+        boolean first = true;
+        boolean second = true;
 
-        System.out.println(MAX_UNITS);
-        MAX_UNITS2 = 5;
+        boolean result = first || second;
+
+        System.out.println(MAX_UNITS2);
+
     }
 }

@@ -7,7 +7,13 @@ package org.concordia.workshop.course1;
 
 public class MainExample {
     public static void main(String[] args) {
+        String hello = "Hello World!";
         String helloWorld = "Hello World!";
-        System.out.println(helloWorld);
+
+        int length = helloWorld.length();
+        for (int i = 0; i < helloWorld.length(); i++) {
+            length++;
+        }
+        System.out.println(hello.length());
     }
 }
