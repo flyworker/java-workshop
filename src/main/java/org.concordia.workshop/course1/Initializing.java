@@ -16,4 +16,15 @@ public class Initializing {
             cosines[i] = Math.cos(Math.toRadians(i));
         }
     }
+
+    public static void main(String[] args) {
+        String hello = "Hello World!";
+//        String helloWorld = "Hello World!";
+//
+//        int length = helloWorld.length();
+//        for (int i = 0; i < helloWorld.length(); i++) {
+//            length++;
+//        }
+        System.out.println(hello);
+    }
 }
