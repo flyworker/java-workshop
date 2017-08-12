@@ -37,3 +37,6 @@ The project is managed by maven
 ## Git
 
     https://git-scm.com/download
+
+## Exercises Solutions 
+https://github.com/ecvictor/Intro-to-Java-Programming
