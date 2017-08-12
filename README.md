@@ -1,13 +1,39 @@
-This hands-on course class is designed as Advanced Java - J2EE workshop. It concentrates on building strength in advanced skills using J2SE and Eclipse by selecting a set of appropriate topics for the week based on the needs of the students.
+# Setup Environment
 
-# Audience
+## JDK
+The major java version used in the project is java1.8
 
-Anyone who has a background in programming Java with J2SE and would like to learn new skills for practical application on the job.
+* Download Page
 
-# Prerequisites
+    http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+* For Windows User
+    
+    http://www.seleniumframework.com/cucumber-jvm-3/install-java-jdk/
 
-Experience using Java in the last few years.
+## IDEA 
+* Internet Download Page
+  * https://www.jetbrains.com/idea/download/#section=mac
+* Local Download
 
-# Course Completion
+  * macOS http://192.168.88.187:8080/idea.dmg
+  * Windows http://192.168.88.187:8080/idea.exe
+## Maven
+The project is managed by maven
+* Downloading page
 
-Students will have an overview or in-depth coverage of student driven Java topics important to them when programming in J2EE.# Spring4MVC
+    https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F
+    
+* For Windows user
+
+    http://www.seleniumframework.com/cucumber-jvm-3/install-maven/
+    
+* For mac 
+
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+    `brew install maven`
+
+
+## Git
+
+    https://git-scm.com/download
