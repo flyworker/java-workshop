@@ -1,22 +1,19 @@
 # Setup Environment
 
 ## JDK
-The major java version used in the project is java1.8
+The current stable java version used in the project is java1.8
 
 * Download Page
-
     http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
-* For Windows User
-    
-    http://www.seleniumframework.com/cucumber-jvm-3/install-java-jdk/
 
-## IDEA 
+## IntelliJ IDEA
 * Internet Download Page
   * https://www.jetbrains.com/idea/download/#section=mac
-* Local Download
 
+* Local Download
   * macOS http://192.168.88.187:8080/idea.dmg
   * Windows http://192.168.88.187:8080/idea.exe
+
 ## Maven
 The project is managed by maven
 * Downloading page
