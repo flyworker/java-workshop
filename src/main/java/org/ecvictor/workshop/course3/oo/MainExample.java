@@ -11,15 +11,27 @@ public class MainExample {
     public static void main(String[] args) {
         PermanentResident charlesNoConstructor = new PermanentResident();
 
-        PermanentResident charles = new PermanentResident("Charles", 0, "1985-04-06");
+        PermanentResident charles = new PermanentResident();
         charles.setNation("Chinese");
 
-        PermanentResident raj = new PermanentResident("Raj", 0, "1985-04-10");
+
+        PermanentResident charles3 = new PermanentResident();
+        System.out.println(charles3.getEyeColor());
+
+        charles3.setEyeColor("Brown");
+        System.out.println(charles3.getEyeColor());
+        System.out.println(PermanentResident.miniteInDay());
+
+
+        PermanentResident raj = new PermanentResident();
+        raj.setName("Raj");
         raj.setNation("Indian");
 
 
 //        System.out.println("Is Charles Chinese?  " + charles.isChinese());
         System.out.println("Is Raj Chinese?  " + raj.isChinese());
-        System.out.println(charles.getNation());
+
+
+        System.out.println(raj.VISA_TYPE==charles.VISA_TYPE);
     }
 }
