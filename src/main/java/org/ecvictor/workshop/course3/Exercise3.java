@@ -8,7 +8,7 @@ package org.ecvictor.workshop.course3;
 /**
  * Create a car factory.
  * Color, type, manufacture , created date, distance,
- * Create two type of cars: e.g. escape, corola.
+ * Create two type of cars: e.g. escape, carola.
  * init a 0km driving distance.
  *
  * We want to have those functions:
