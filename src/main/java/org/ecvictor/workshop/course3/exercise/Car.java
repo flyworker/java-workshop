@@ -74,7 +74,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Bicycle{" +
                 "color='" + color + '\'' +
                 ", type='" + type + '\'' +
                 ", manufacture='" + manufacture + '\'' +

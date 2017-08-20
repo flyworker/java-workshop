@@ -1,5 +1,6 @@
 package org.ecvictor.workshop.course4.oo_design;
 
+
 /**
  * Created by ccao on 2017-08-20.
  */

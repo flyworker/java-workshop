@@ -19,24 +19,30 @@ import java.util.Random;
  * <p>
  * The car will be retired after 200,000km.
  */
-public class ExerciseAnswer {
+public class Main {
 
 
-    public static final int DISTANCE_LIMIT = 10000;
+    public static final int DISTANCE_LIMIT = 100;
 
     public static void main(String[] args) {
+        runBicycle();
+        runTandemBicycle();
+    }
+
+    private static void runTandemBicycle() {
+        System.out.println("############################################");
         //Create an object
-        Bicycle escape = new Bicycle();
-        escape.setBrandName("Escape 2013");
-        escape.setColor("Silver");
-        escape.setManufacture("Ford");
-        escape.setCreatedDate("2013-08-08");
-        System.out.println(escape);
+        Bicycle tandemBicycle = new TandemBicycle();
+        tandemBicycle.setBrandName("Giant Tandem Bicycle");
+        tandemBicycle.setColor("Silver");
+        tandemBicycle.setManufacture("Giant");
+        tandemBicycle.setCreatedDate("2013-08-08");
+        System.out.println(tandemBicycle);
 
 
-        System.out.println(escape.getBrandName() + " is Created.");
+        System.out.println(tandemBicycle.getBrandName() + " is Created.");
         int count = 1;
-        while (!escape.isRetired()) {
+        while (!tandemBicycle.isRetired()) {
             Distance distance = new Distance();
 
             Random ran = new Random();
@@ -44,18 +50,51 @@ public class ExerciseAnswer {
             int newDistance = DISTANCE_LIMIT;
             distance.setQuantity(newDistance);
             distance.setUnit(Unit.MILE);
-            System.out.println(escape.getDistance());
+            System.out.println(tandemBicycle.getDistance());
 
-            escape.addDrivingDistance(distance);
+            tandemBicycle.addDrivingDistance(distance);
             count++;
         }
 
-        if (escape.isRetired())
-            System.out.println(escape
+        if (tandemBicycle.isRetired())
+            System.out.println(tandemBicycle
                     + " is Retired."
-                    + "It travels "
+                    + " It travels "
                     + count + " times.");
+    }
 
+    private static void runBicycle() {
+        System.out.println("############################################");
+        //Create an object
+        Bicycle bicycle = new Bicycle();
+        bicycle.setBrandName("Giant Bicycle 2013");
+        bicycle.setColor("Silver");
+        bicycle.setManufacture("Giant");
+        bicycle.setCreatedDate("2013-08-08");
+        System.out.println(bicycle);
+
+
+        System.out.println(bicycle.getBrandName() + " is Created.");
+        int count = 1;
+        while (!bicycle.isRetired()) {
+            Distance distance = new Distance();
+
+            Random ran = new Random();
+//            int newDistance = ran.nextInt(DISTANCE_LIMIT);
+            int newDistance = DISTANCE_LIMIT;
+            distance.setQuantity(newDistance);
+            distance.setUnit(Unit.MILE);
+            System.out.println(bicycle.getDistance());
+
+            bicycle.addDrivingDistance(distance);
+            count++;
+        }
+
+        if (bicycle.isRetired())
+            System.out.println(bicycle
+                    + " is Retired."
+                    + " It travels "
+                    + count + " times.");
 
     }
 

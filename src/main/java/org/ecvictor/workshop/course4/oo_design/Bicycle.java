@@ -3,7 +3,7 @@ package org.ecvictor.workshop.course4.oo_design;
 /**
  * Created by ccao on 2017-08-20.
  */
-public class Car {
+public class Bicycle {
 
     private String color;
     private String manufacture;
@@ -11,7 +11,7 @@ public class Car {
     private Distance distance;
     private String brandName;
 
-    public Car() {
+    public Bicycle() {
         Distance distance = new Distance();
         distance.setQuantity(0);
         distance.setUnit(Unit.KM);
@@ -76,12 +76,12 @@ public class Car {
     }
 
     public boolean isRetired() {
-        return this.distance.getQuantity() >= 200000;
+        return this.distance.getQuantity() >= 2000;
     }
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Bicycle{" +
                 "color='" + color + '\'' +
                 ", manufacture='" + manufacture + '\'' +
                 ", createdDate='" + createdDate + '\'' +

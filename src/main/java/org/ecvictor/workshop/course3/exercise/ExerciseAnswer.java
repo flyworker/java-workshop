@@ -28,7 +28,7 @@ public class ExerciseAnswer {
         Car escape = new Car();
         escape.setBrandName("Escape 2013");
         escape.setColor("Silver");
-        escape.setType("SUV");
+        escape.setType("TandemBicycle");
         escape.setManufacture("Ford");
         escape.setCreatedDate("2013-08-08");
         System.out.println(escape.getBrandName() + " is Created.");
