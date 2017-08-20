@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.course3;
+package org.ecvictor.workshop.course3.exercise;
 
 /**
  * Created by ccao on 2017-08-19.
