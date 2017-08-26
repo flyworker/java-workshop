@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercise5.interfaceExample;
+package org.ecvictor.workshop.course5.interfaceExample;
 
 /**
  * Created by ccao on 2017-08-26.

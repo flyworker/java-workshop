@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercise5.overloading_overriding;
+package org.ecvictor.workshop.course5.overloading_overriding;
 
 /**
  * Created by ccao on 2017-08-26.

@@ -1,13 +1,12 @@
-package org.ecvictor.workshop.exercise5.interfaceExample;
-
-import org.ecvictor.workshop.exercise5.overloading_overriding.Dog;
+package org.ecvictor.workshop.course5.abstractExample;
 
 /**
  * Created by ccao on 2017-08-26.
  */
-public class Hound extends Dog {
+public class Hound extends AbstractDog {
     //overriding
     public void bark() {
+
         System.out.println("bowl");
     }
 

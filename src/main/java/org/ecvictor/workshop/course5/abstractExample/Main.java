@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercise5.abstractExample;
+package org.ecvictor.workshop.course5.abstractExample;
 
 
 /**
