@@ -5,8 +5,8 @@ package org.ecvictor.workshop.course4;
  */
 public class Excise4 {
 
-    /**
-     /**
+    /*
+     *
      * Create a car factory.
      * Color, type, manufacture , created date, distance,
      * Create two type of cars: e.g. escape, carola.

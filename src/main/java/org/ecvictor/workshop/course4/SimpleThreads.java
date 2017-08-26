@@ -7,7 +7,7 @@ package org.ecvictor.workshop.course4;
 /**
  * Step 1
 
- As a first step, you need to implement a run() method provided by a Runnable interface.
+ As a first step, you need to implement a run() method provided by a Runnable interfaceExample.
  This method provides an entry point for the thread and you will put your complete business logic inside this method.
  Following is a simple syntax of the run() method −
 
@@ -19,7 +19,7 @@ package org.ecvictor.workshop.course4;
 
  Thread(Runnable threadObj, String threadName);
 
- Where, threadObj is an instance of a class that implements the Runnable interface and threadName is the name given to the new thread.
+ Where, threadObj is an instance of a class that implements the Runnable interfaceExample and threadName is the name given to the new thread.
  Step 3
 
  Once a Thread object is created, you can start it by calling start() method,
