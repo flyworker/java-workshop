@@ -31,7 +31,7 @@ public class Excise5 {
      *
      * Interface autoDrive
      * isHumanInteract()
-     * bandingSmartPhone(String phoneType)
+     * bindSmartPhone(String phoneType)
      * remoteActivate() //if there is no connection between server and smart phone, cannot activated.
      * autoUpdate()
      *
