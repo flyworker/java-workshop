@@ -1,6 +1,6 @@
-package org.ecvictor.workshop.ooDesign.template;
+package org.ecvictor.workshop.ooDesign;
 
-public abstract class AbstractAirplane implements Transporter {
+public abstract class AbstractAirplane implements Transportation {
     /**
      * @param direction: 1 - left, 2- right, 3-up, 4-down
      */

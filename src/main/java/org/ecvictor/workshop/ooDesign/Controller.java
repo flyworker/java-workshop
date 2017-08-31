@@ -1,7 +1,7 @@
-package org.ecvictor.workshop.ooDesign.template;
+package org.ecvictor.workshop.ooDesign;
 
 public class Controller {
-    public void operate(Transporter machine, int direction){
+    public void operate(Transportation machine, int direction){
         machine.startEngine();
         machine.steer(direction);
         //drive 100km

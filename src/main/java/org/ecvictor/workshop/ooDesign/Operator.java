@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.ooDesign.template;
+package org.ecvictor.workshop.ooDesign;
 
 public class Operator {
 
@@ -20,9 +20,9 @@ public class Operator {
 
 
         System.out.println();
-        Transporter helicopter = new Helicopter();
-        Transporter airplane = new Airplane();
-        Transporter niubiCar =new Car();
+        Transportation helicopter = new Helicopter();
+        Transportation airplane = new Airplane();
+        Transportation niubiCar =new Car();
 
         helicopter.startEngine();
         airplane.startEngine();
