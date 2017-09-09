@@ -1,10 +1,26 @@
 package org.ecvictor.workshop.ooDesign.template;
 
 public class Car extends AbstractAuto {
+
+
     @Override
     public void startEngine() {
-        System.out.println("Start Gas engine!");
+        try {
+            System.out.println("Start Gas engine!");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
+//
+//    static int hashCode(Object o){
+//        return 1;
+//    }
+//    static boolean	equals(Object a, Object b){
+//        if(b instanceof )
+//        return true;
+//    }
+
+
 
 //    /**
 //     *
