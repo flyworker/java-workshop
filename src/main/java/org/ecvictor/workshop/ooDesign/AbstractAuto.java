@@ -1,10 +1,10 @@
-package org.ecvictor.workshop.ooDesign.template;
+package org.ecvictor.workshop.ooDesign;
 
 /**
  * Template of automobile:
  * Implementation of common behavior
  */
-public abstract class AbstractAuto implements Transporter{
+public abstract class AbstractAuto implements Transportation {
     /**
      * @param direction: 1 - left, 2- right
      */

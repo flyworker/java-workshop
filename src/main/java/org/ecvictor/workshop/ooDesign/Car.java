@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.ooDesign.template;
+package org.ecvictor.workshop.ooDesign;
 
 public class Car extends AbstractAuto {
 
