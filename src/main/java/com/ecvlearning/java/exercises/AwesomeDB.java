@@ -7,7 +7,7 @@ package com.ecvlearning.java.exercises;
  *
  * Functional requirement:
  * 1. Create a Column Class(Java Bean) that contains two variables: String name, String type and their Getters and Setters
- *    This Class is the key used in Map
+ *    This Class is the key used in Map(Optional, can use String directly)
  * 2. Provide a get(int index) method to retrieve one row of the table
  * 3. Provide a size() method to retrieve the total number of rows
  * 4. Provide a remove(int index) method to delete the specified row
