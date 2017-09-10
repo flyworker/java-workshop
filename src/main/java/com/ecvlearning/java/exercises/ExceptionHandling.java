@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercises;
+package com.ecvlearning.java.exercises;
 
 /**
  * Create a method which throws a checked exception
@@ -11,7 +11,6 @@ package org.ecvictor.workshop.exercises;
  *
  */
 public class ExceptionHandling {
-
     public static void main(String args[]){
         //this clause cannot be removed but can be moved
         System.exit(1);

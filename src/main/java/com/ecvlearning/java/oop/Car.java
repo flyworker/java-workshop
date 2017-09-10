@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.ooDesign;
+package com.ecvlearning.java.oop;
 
 public class Car extends AbstractAuto {
 

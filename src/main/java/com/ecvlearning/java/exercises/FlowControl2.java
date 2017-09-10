@@ -1,7 +1,6 @@
-package org.ecvictor.workshop.exercises;
+package com.ecvlearning.java.exercises;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Step 1: Initialize an array {6,7,1,19,22,3,67,12,9,16,13,88,19,32,25,5,0}

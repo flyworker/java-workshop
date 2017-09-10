@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercises;
+package com.ecvlearning.java.exercises;
 
 /**
  * Implement a table structure using the combination of List and Map,

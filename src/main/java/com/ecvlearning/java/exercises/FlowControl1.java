@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercises;
+package com.ecvlearning.java.exercises;
 
 import java.util.Random;
 

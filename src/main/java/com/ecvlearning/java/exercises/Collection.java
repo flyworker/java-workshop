@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.exercises;
+package com.ecvlearning.java.exercises;
 
 /**
  * Use ArrayList to implement the same functionality requested in exercise - FlowControl2

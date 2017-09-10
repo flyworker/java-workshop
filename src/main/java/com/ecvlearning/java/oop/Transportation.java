@@ -1,4 +1,4 @@
-package org.ecvictor.workshop.ooDesign;
+package com.ecvlearning.java.oop;
 
 public interface Transportation {
     public void steer(int direction);
