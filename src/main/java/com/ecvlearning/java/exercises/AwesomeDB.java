@@ -6,21 +6,19 @@ package com.ecvlearning.java.exercises;
  * please read through before solving this problem:
  *
  * Functional requirement:
- * 1. Create a Column Class(Java Bean) that contains two variables: String name, String type and their Getters and Setters
- *    This Class is the key used in Map(Optional, can use String directly)
+ * 1. Feel free to make assumptions
  * 2. Provide a get(int index) method to retrieve one row of the table
  * 3. Provide a size() method to retrieve the total number of rows
  * 4. Provide a remove(int index) method to delete the specified row
  * 5. Provide a remove() method to delete the current row
  * 6. Provide an add() method to add a new empty row
  *
- * 7. Provide a select(Column name) method to retrieve specific element within a row
- * 8. Provide an insert(Column name, String value) method to add new item to the row
- * 9. Provide an update(Column name, String value) method to modify the value by specified name in row
- * 10. Provide a delete(Column name) method to delete value from the row
+ * 7. Provide a select(String name) method to retrieve specific element within a row
+ * 8. Provide an insert(String name, String value) method to add new item to the row
+ * 9. Provide an update(String name, String value) method to modify the value by specified name in row
+ * 10. Provide a delete(String name) method to delete value from the row
  *
- * 11. Provide a getType(Column name) method to retrieve the type of the specified column(Optional)
- * 12. Feel free to add extra methods/Classes whenever necessary
+ * 11. Feel free to add extra methods/Classes whenever necessary
  *
  * Non-functional requirement:
  * 1. Please use Interface/Abstract Class to properly design the system
@@ -33,7 +31,7 @@ package com.ecvlearning.java.exercises;
  * 2. We need the program has at least 5 rows of data to show CRUD functionality
  *
  * Hints:
- * 1. List for rows, Map for columns
+ * 1. Put Map in List
  * 2. All methods defined in an interface
  * 3. Use Constants for columns names
  * 4. Write comments to explain core logic and make assumptions

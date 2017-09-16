@@ -1,4 +1,4 @@
-package com.ecvlearning.java.exercises;
+package com.ecvlearning.java.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
