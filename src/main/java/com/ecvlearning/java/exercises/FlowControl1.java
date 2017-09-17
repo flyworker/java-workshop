@@ -8,6 +8,9 @@ import java.util.Random;
  */
 public class FlowControl1 {
     public static void main(String args[]) {
+        Random rand = new Random();
+        int a = rand.nextInt();
 
+        System.out.println(a);
     }
 }
