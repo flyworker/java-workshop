@@ -23,8 +23,8 @@ package com.ecvlearning.java.exercises;
  * Non-functional requirement:
  * 1. Please use Interface/Abstract Class to properly design the system
  * 2. Please implement in two ways: one focuses on fast retrieval; another emphasizes fast insertion/update/removal
- * 3. Those two types of implementations should share same interfaces so that we can switch the underlying implementations with minimum effort(Optional)
- * 4. Always keep SOLID principle in mind (Optional)
+ * 3. Those two types of implementations should share same interfaces so that we can switch the underlying implementations with minimum effort
+ * 4. Always keep SOLID principle in mind
  *
  * The main() method:
  * 1. We need a table with column names: Id(int),Name(String),Gender(String),Age(int),Description(String),DateCreated(?)

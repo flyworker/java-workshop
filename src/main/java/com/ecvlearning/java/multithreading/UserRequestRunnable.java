@@ -9,12 +9,12 @@ public class UserRequestRunnable implements Runnable{
     public void run() {
         System.out.println("User "+Thread.currentThread().getName()+" is logged!");
         for(int i=0;i<100000000;i++){
+//            Thread.sleep(1000);
             this.plus();
-
         }
     }
 
-    private void plus(){
+    private synchronized void plus(){
 //        SharedResources.count = SharedResources.count + 1;
         this.count = this.count + 1;
     }
@@ -31,24 +31,10 @@ public class UserRequestRunnable implements Runnable{
         userRequest2.start();
         userRequest3.start();
 
-//        Thread userRequest4 = new Thread(urr);
-//        userRequest4.start();
-//
-//        Thread userRequest5 = new Thread(urr);
-//        Thread userRequest6 = new Thread(urr);
-//        Thread userRequest7 = new Thread(urr);
-//
-//        userRequest5.start();
-//        userRequest6.start();
-//        userRequest7.start();
-
         userRequest.join();
         userRequest2.join();
         userRequest3.join();
-//        userRequest4.join();
-//        userRequest5.join();
-//        userRequest6.join();
-//        userRequest7.join();
+
         System.out.println(urr.count);
         //waiting
     }
