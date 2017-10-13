@@ -1,0 +1,7 @@
+.cell{
+    float: left;
+    background-color: inherit;
+    color: white;
+    font-size: 28px;
+    width:10%;
+}

@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <title>Hello World!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body style="margin: 0; padding: 0;">
+<body style="margin: 0; ">
 
-<div style="width: 100%; background-color: black; color: white; margin: 0px; padding: 0px;">
-    Personal	Small business	Enterprise		Bell mail	Find a store	QC	|	Francais
-</div>
-
-
-
-
-<table width="100%" style="background-color: black; color: white;">
+<table width="100%" style="background-color: black; color: white; padding: 5px;">
     <!--
     <thead>
     <tr>
@@ -59,5 +70,69 @@
 
 </table>
 
+
+<div style="background-color: #00549a; width: 100%; height: 50px; margin: 0px;padding: 0px;" >
+    <div style="float: left; background-color: inherit; width: 10%;">
+        <p><a href="#"><img src="pic/bell.png" alt="Home" title="Home"></a></p>
+    </div>
+    <div class="cell">
+
+    </div>
+    <div class="cell">
+        <p>Shop</p>
+    </div>
+    <div  class="cell">
+        <p>Support</p>
+    </div>
+    <div  class="cell">
+        <p>My Bell</p>
+    </div>
+
+    <div  class="cell" style="width:20%;">
+        <p ><input type="text" style="width:80px;"/> <font style="font-size: 18px;">Search</font></p>
+    </div>
+    <div  class="cell" style="width:20%;">
+        <p style="background-color: white;"><font style="font-size: 18px; color: #00549a;">Login/Register</font></p>
+    </div>
+    <div  class="cell">
+        <p style="height: 50px;"><a href="#"><img src="pic/cart.png" alt="Home" title="Cart"></a></p>
+    </div>
+</div>
+
+<hr>
+
+<div class="row" style="background-color: #00549a;padding: 10px;">
+    <div class="col-md-2">
+        <a href="#"><img src="pic/bell.png" alt="Home" title="Home"></a>
+    </div>
+
+    <div class="col-md-1" style="padding-top: 10px;">
+        <h4><span class="align-middle text-white ">Shop</span></h4>
+    </div>
+    <div class="col-md-1" style="padding-top: 10px; margin-right: 20px;">
+        <h4><span id="span_support" class="align-middle  ">Support</span></h4>
+    </div>
+    <div class="col-md-2" style="padding-top: 10px;">
+        <h4><span class="align-middle text-white ">My Bell</span></h4>
+    </div>
+
+    <div class="col-md-3" style="padding-top: 10px;">
+        <input class="rounded mr-sm-2" style="width:80px;">Search
+    </div>
+</div>
+
+<script>
+    var span = document.getElementById("span_support");
+    alert(span.innerHTML);
+    span.style.color = "Red";
+
+    var html1 = $('#span_support').html();
+    alert(html1);
+    $('#span_support').css({
+    'color': 'yellow'
+    });
+
+
+</script>
 </body>
 </html>
