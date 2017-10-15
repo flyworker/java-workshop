@@ -106,8 +106,8 @@
         <a href="#"><img src="pic/bell.png" alt="Home" title="Home"></a>
     </div>
 
-    <div class="col-md-1" style="padding-top: 10px;">
-        <h4><span class="align-middle text-white ">Shop</span></h4>
+    <div class="col-md-1" id="span_shop" style="padding-top: 10px;">
+        <h4><span class="align-middle ">Shop</span></h4>
     </div>
     <div class="col-md-1" style="padding-top: 10px; margin-right: 20px;">
         <h4><span id="span_support" class="align-middle  ">Support</span></h4>
@@ -121,17 +121,61 @@
     </div>
 </div>
 
+<div id="container"></div>
+
+<button onclick="changeSupportColor()">Change support color</button>
+
+<button onclick="createButton()"></button>
 <script>
-    var span = document.getElementById("span_support");
-    alert(span.innerHTML);
-    span.style.color = "Red";
+    //var span = document.getElementById("span_support");
+    //alert(span.innerHTML);
+    //span.style.color = "Red";
 
-    var html1 = $('#span_support').html();
-    alert(html1);
-    $('#span_support').css({
-    'color': 'yellow'
-    });
+    //var html1 = $('#span_support');
+    //alert(html1);
+    //$('#span_support').css({
+    //'color': 'yellow'
+    //});
 
+    var supportState = false;
+    function changeSupportColor(){
+        var support = $('#span_support');
+
+        if(supportState){
+            support.css({
+                'color': 'Red'
+            });
+            supportState = false;
+        }else{
+            support.css({
+                'color': 'yellow'
+            });
+            supportState = true;
+        }
+    }
+
+    var button1 = $('<button/>').text('Change shop color');
+
+    //var button1 = $('#btn_color');
+    button1.bind('click',function(){
+        var support = $('#span_shop');
+
+        if(supportState){
+            support.css({
+                'color': 'Red'
+            });
+            supportState = false;
+        }else{
+            support.css({
+                'color': 'yellow'
+            });
+            supportState = true;
+        }
+    })
+
+    function createButton(){
+        $('#container').append(button1);
+    }
 
 </script>
 </body>
