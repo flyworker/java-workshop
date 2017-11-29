@@ -12,5 +12,18 @@ package org.ecvictor.workshop.course1;
 public class Exercise1 {
     public static void main(String[] args) {
 
+        String helloWolrd = "Hello wolrd!";
+        helloWolrd +=  " Sunday";
+
+
+        System.out.println(helloWolrd.substring(3));
+        System.out.println(helloWolrd.replace("o","a"));
+        System.out.println("Log:  "+helloWolrd);
+        System.out.println(helloWolrd.length());
+        System.out.println(helloWolrd.indexOf("a"));
+        String[] chars = helloWolrd.split("");
+        for(String char1:chars){
+            System.out.println(char1);
+        }
     }
 }

@@ -1,7 +1,10 @@
 package com.ecvlearning.java.helloworld;
 
+import com.ecvlearning.java.oop5.Bird;
+
 public class MainExample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
 //        String helloworld = "Hello world!";
 //        System.out.println(helloworld);
 //
@@ -42,14 +45,14 @@ public class MainExample {
 
         int a = 10;
         int b = 10;
-        System.out.println(a==b);
+        System.out.println(a == b);
 //        System.out.println(skewer == skewer2);
         System.out.println(skewer.equals(skewer2));
 
         System.out.println(skewer.indexOf("r"));
 
         String[] chars = mixedSkewer.split("");
-        for(String char1:chars){
+        for (String char1 : chars) {
             System.out.println(char1);
         }
     }
